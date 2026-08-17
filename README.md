@@ -2,7 +2,7 @@
 Pushes parsed scanner output into a ThreatDoc report's findings.
 
 Get a token from ThreatDoc's Engagement Workspace > CLI Convert tab
-Token expire after 60 minutes and only work against the one report generated under
+Token expire after 60 minutes and only works with the report that the token was generated under.
 
 ## Build 
 
