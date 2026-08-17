@@ -1,6 +1,4 @@
-// Package parser holds one adapter per supported scanner. Each adapter's
-// only job is mapping that tool's own output format onto the normalized
-// finding.Finding shape — nothing about the scanner leaks past this package.
+
 package parser
 
 import "threatdoc-cli/internal/finding"
