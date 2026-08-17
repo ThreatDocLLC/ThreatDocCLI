@@ -8,7 +8,7 @@ import (
 
 type State struct {
 	path string
-	data map[string]map[string][]string // reportID -> tool -> []externalID
+	data map[string]map[string][]string 
 }
 
 func Load(path string) (*State, error) {
